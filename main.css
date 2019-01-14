@@ -12,10 +12,14 @@ header, nav, aside, article, footer, section, main, figure, figcaption {
     outline: 0;
 }
 
-body {
-  font-family: Bahnschrift;
-  background: black;
-  min-height: 100vh;
+h1 {
+  font-weight: bold;
+  color: white;
+  text-shadow: 3px 3px red,
+            5px 5px #48beeb;
+  font-size: 2.75em;
+	padding: 25px 0 15px 0;
+	text-align: center;
 }
 
 nav {
@@ -28,18 +32,29 @@ nav ul li {
   padding: 1px;
 }
 
-h1 {
-  font-weight: bold;
-  color: white;
-  text-shadow: 3px 3px red;
-  font-size: 2.75em;
-	padding: 25px 0 15px 0;
-	text-align: center;
+body {
+  font-family: Bahnschrift;
+  background: black;
+  min-height: 100vh;
+}
+
+h2 {
+	padding: 1px;
+  color: #48beeb;
 }
 
 main {
-	background-color: #bdb7b7;
-  width: 85%;
+	background-color: white;
+  width: 75%;
   text-align: center;
+  margin: auto;
+}
+
+footer {
+  margin-top: 20px;
+	background-color: red;
+	text-align: center;
+	color: white;
+  max-width: 75%;
   margin: auto;
 }
