@@ -1,0 +1,27 @@
+@charset "UTF-8";
+
+header, nav, aside, article, footer, section, main, figure, figcaption {
+	display: block;
+}
+* {
+ 	margin:0;
+	border:0;
+	padding:0;
+}
+*:focus {
+    outline: 0;
+}
+
+body {
+  font-family: Bahnschrift;
+  background: black;
+  min-height: 100vh;
+}
+
+nav {
+  text-align: center;
+}
+
+nav ul li {
+  color: white;
+}
